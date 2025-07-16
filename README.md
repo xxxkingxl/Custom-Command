@@ -42,10 +42,6 @@ because its already added to the path variable and otherwise going to conflict w
 
 ---
 
-Certainly! Here's a refined version with clearer formatting, a friendlier tone, and a bit more guidance for users who might be new to ADB setups:
-
----
-
 ## 📱 Android Support (Optional)
 
 Some commands in this system rely on **Android Debug Bridge (ADB)**, which is **fully bundled** in the `adb` folder — no need to download it separately. ADB allows for powerful Android device interactions, especially when paired with the [Shizuku](https://shizuku.moe/) app for near-root access (without rooting your device).
