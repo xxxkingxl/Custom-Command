@@ -43,7 +43,10 @@
     * Not Yet Discoverd by me (when developing linux version I will search how to do that)
 * after you created shortcut, you move it to the correct category and give it an name (you dont have to remember, but you will need to read and type it, sometimes a lot do)
 * example format apps folder: (from my install, so real life example)
-```example format from xxxkingxl him self (yes some more stuff below this)
+```
+example format from xxxkingxl him self (yes some more stuff below this)
+```
+```
 ccmd\apps\
 |
 ├───Content\
