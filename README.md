@@ -13,7 +13,7 @@ A modular command framework designed to supercharge Windows environments with po
 ---
 
 ## 📱 Android Support (Optional)
-
+[view the Android Support info and setup guide + Shizuku info](Andoid_Support-ADB.md)
 
 
 ---
