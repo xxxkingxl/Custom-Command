@@ -21,10 +21,12 @@ A modular command framework designed to supercharge Windows environments with po
 
 ## 🧰 Features
 
-- Manual folder-based install
-- Custom command dispatching
-- Android support with bundled ADB
+- Custom command dispatching (examples: `mkcd`, `forest`,...)
+- Android support with bundled ADB `ADB`
 - Windows focused (Linux support planned)
+- Vencord Terminal Installer incuded with bundled binairy from vencord `VTI`
+- AppLauncher is included to be able to launch apps straight from the terminal (under multiple names)
+- Microsoft Edit alias `nano` to replicate Linux Nano (Windows Only!) (Requires Microsoft Edit to be Installed!)
 
 ---
 
