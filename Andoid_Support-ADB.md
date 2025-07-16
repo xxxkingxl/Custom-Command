@@ -21,7 +21,7 @@ Some commands in this system rely on **Android Debug Bridge (ADB)**, which is **
 3. 🟦 In the Shizuku app, select **“Start via USB (ADB)”** mode.
 4. 🛠️ Open your terminal or command window and run:
 
-```bash
+```
 adbse
 ```
 
