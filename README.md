@@ -52,7 +52,7 @@ This project is licensed under a **custom EULA**. Redistribution and modificatio
 
 - Linux compatibility
 - UI-based installer
-- --Modular plugin support-- (reason: if you add an terminal app (for windows its an .exe file) in the run directory, then its able to be used, but not registed in the help command)
+- ~~Modular plugin support~~ (reason: if you add an terminal app (for windows its an .exe file) in the run directory, then its able to be used, but not registed in the help command)
 
 ---
 
