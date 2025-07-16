@@ -20,8 +20,8 @@ Some commands in this system rely on **Android Debug Bridge (ADB)**, which is **
 2. 🔌 Connect your phone via USB with debugging enabled.
 3. 🟦 In the Shizuku app, select **“Start via USB (ADB)”** mode.
 4. 🛠️ Open your terminal or command window and run:
-   ```PowerShell
-   adbse
-   ```
+```your terminal
+adbse
+```
 5. 🔓 This activates elevated permissions for Android-related commands, without requiring root.
 Note: if you have ADB already installed, you just ignore the adb folder and then you just do NOT add the adb folder to the path variable, because its already added to the path variable and otherwise going to conflict with your current install of ADB, the custom Command System is going to pick up the current install of ADB instead of the included one
