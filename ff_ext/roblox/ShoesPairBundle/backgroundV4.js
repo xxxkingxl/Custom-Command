@@ -99,8 +99,7 @@ async function loadOwnedShoeBundles(userId) {
   const seen = new Map();
   let cursor = null;
   do {
-    const params = new URLSearchParams({ limit: "100" });
-    if (cursor) params.set("cursor", cursor);
+    const params = new URLSearchParams({ limit: "100", cursor: cursor || "" });
     const result = await getJSON("https://catalog.roblox.com/v1/users/" + id + "/bundles/3?" + params.toString());
     for (const bundle of result.data || []) if (bundle.id != null) seen.set(bundle.id, bundle);
     cursor = result.nextPageCursor || null;
@@ -110,7 +109,7 @@ async function loadOwnedShoeBundles(userId) {
     const batch = all.slice(i, i + 50);
     try {
       const details = await getJSON("https://catalog.roblox.com/v1/bundles/details?bundleIds=" + batch.map(bundle => bundle.id).join(","));
-      for (const detail of details || []) {
+      for (const detail of (Array.isArray(details) ? details : (details.data || []))) {
         const bundle = batch.find(item => item.id === detail.id);
         if (!bundle) continue;
         bundle.name = detail.name || bundle.name;
